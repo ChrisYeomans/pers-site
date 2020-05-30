@@ -1,0 +1,30 @@
+body {
+    background-image: url(../img/bb.png);
+}
+
+.navbar-nav {
+    background: none;
+    padding-right: 7%;
+    padding-top: 1%;
+}
+
+.nav-link {
+    font-family: 'Lato', sans-serif;
+    color:grey;
+    font-size: 2vw;
+}
+
+.navbar-brand {
+    font-family: 'Lato', sans-serif;
+    color:grey;
+    font-size: 5vw;
+    margin-left: 5%;
+}
+
+.navbar-toggler-icon {
+    background:url(../img/hamburger_icon.png) left top; 
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #000;
+}
