@@ -38,8 +38,13 @@
     </head>
 
     <body>
-        <div id="proj"></div>
+        <div id="proj" class="container"></div>
     </body>
-    
-    <div id="runner" onload="printFiles('proj')"></div>
+    <script>
+        let conv = new showdown.Converter();
+        let projs = getFiles();
+        projs.forEach(e =>
+            document.getElementById('proj').innerHTML += conv.makeHtml(e)
+        );     
+    </script>
 </html>
